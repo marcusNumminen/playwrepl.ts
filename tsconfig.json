@@ -1,0 +1,18 @@
+{
+    "ts-node": {
+        "esm": true,
+        "compilerOptions": {
+            "module": "ESNext",
+            "target": "ES2022",
+            "moduleResolution": "NodeNext",
+            "typeRoots": ["./node_modules/@types"],
+        }
+    },
+    "compilerOptions": {
+        "module": "NodeNext",
+        "target": "ESNext",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "allowSyntheticDefaultImports": true,
+    }
+}
