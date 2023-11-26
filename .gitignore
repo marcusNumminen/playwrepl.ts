@@ -1,0 +1,4 @@
+node_modules
+storageStates
+.env
+.history
