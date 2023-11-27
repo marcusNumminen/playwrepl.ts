@@ -123,3 +123,6 @@ Uncaught SyntaxError: Unexpected token 'export'
 ```
 See: https://github.com/TypeStrong/ts-node/issues/2005
 
+* node 20.x.x problem. If you are using node 20.x.x the you should startb the tool with: `node --loader ts-node/esm ./playwrepl.mts`.
+See https://github.com/TypeStrong/ts-node/issues/1997
+
